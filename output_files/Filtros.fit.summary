@@ -1,0 +1,11 @@
+Fitter Status : Failed - Tue Apr 02 16:07:08 2024
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : Filtros
+Top-level Entity Name : fir_gen
+Family : MAX V
+Device : 5M570ZF256C5
+Timing Models : Final
+Total logic elements : 4,805 / 570 ( 843 % )
+Total pins : 51 / 159 ( 32 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/LEO/OneDrive/Asignaturas/semestre9/DEP/filtrosfir2/simulation/qsim
+Efir_gen
+Z1 w1712094929
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx4 maxv 14 maxv_atom_pack 0 22 `YXhbnPNiS:bB3zbmbF772
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx4 maxv 15 maxv_components 0 22 EJJMbHV<EJ`DANOSmdPih1
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R0
+Z9 8Filtros.vho
+Z10 FFiltros.vho
+l0
+L36
+V`ZmToKOYI=zaAXBzU?TEB1
+!s100 `7NM56OQLAm>:Eb=VZ6B71
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1712094930
+!i10b 1
+Z13 !s108 1712094930.000000
+Z14 !s90 -work|work|Filtros.vho|
+Z15 !s107 Filtros.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 7 fir_gen 0 22 `ZmToKOYI=zaAXBzU?TEB1
+l512
+L48
+V<CCKd@fE0WkH:2hJF4SNI2
+!s100 1o18@IU4PWJHN=dU4@mA90
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Efir_gen_vhd_vec_tst
+Z18 w1712094928
+R7
+R6
+R0
+Z19 8Waveform.vwf.vht
+Z20 FWaveform.vwf.vht
+l0
+L32
+V<lV<f;cf50PN_KTFVFYAO3
+!s100 X3Qk1R[C2<0S>=<iVikPC1
+R11
+32
+R12
+!i10b 1
+R13
+Z21 !s90 -work|work|Waveform.vwf.vht|
+Z22 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Afir_gen_arch
+R7
+R6
+Z23 DEx4 work 19 fir_gen_vhd_vec_tst 0 22 <lV<f;cf50PN_KTFVFYAO3
+l49
+L34
+Z24 VieQL;TS;hL_U9d3o85Il:2
+Z25 !s100 ?V<S2jLEAc74l1?NTih3h2
+R11
+32
+R12
+!i10b 1
+R13
+R21
+R22
+!i113 1
+R16
+R17

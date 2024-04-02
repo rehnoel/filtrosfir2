@@ -1,0 +1,45 @@
+# do Filtros.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:30 on Apr 02,2024
+# vcom -work work Filtros.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package maxv_atom_pack
+# -- Loading package maxv_components
+# -- Compiling entity fir_gen
+# -- Compiling architecture structure of fir_gen
+# End time: 15:55:30 on Apr 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:30 on Apr 02,2024
+# vcom -work work Waveform.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fir_gen_vhd_vec_tst
+# -- Compiling architecture fir_gen_arch of fir_gen_vhd_vec_tst
+# End time: 15:55:30 on Apr 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L maxv -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.fir_gen_vhd_vec_tst 
+# Start time: 15:55:31 on Apr 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fir_gen_vhd_vec_tst(fir_gen_arch)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading maxv.maxv_atom_pack(body)
+# Loading maxv.maxv_components
+# Loading work.fir_gen(structure)
+# ** Fatal: (vsim-3807) Types do not match between component and entity for port "x".
+#    Time: 0 ps  Iteration: 0  Instance: /fir_gen_vhd_vec_tst/i1 File: Filtros.vho Line: 40
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 15:55:31 on Apr 02,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
